@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* FORMS */
+.bioForm, .edForm, .xpForm, .skillForm {
+  border: 2px solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+}
+/* DISPLAYS */
+.display {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+aside button {
+  align-self: center;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  line-height: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* EDUCATION */
+
+.school, .graduation, .degree, .major, .minor {
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 0rem;
+}
+
+h4.school {
+  font-size: 1.4rem;
 }
